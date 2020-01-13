@@ -17,6 +17,47 @@ text-transform: uppercase;
 text-decoration: none;
 }
 
+.dropdown-menu {
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1000;
+display: none;
+float: left;
+min-width: 160px;
+padding: 5px 0;
+margin: 2px 0 0;
+list-style: none;
+font-size: 15px;
+text-align: left;
+background-color: #2A7DE1;
+border: 1px solid #cccccc;
+border: 1px solid rgba(0,0,0,0.15);
+border-radius: 0;
+-webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+}
+
+.dashboard-hero {
+background-image: url(https://reports.texas2036.org/static/media/dash-hero-2.daeaab85.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+width: 100%;
+margin: 0;
+height: 185px;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 700;
+font-size: 48px;
+text-align: center;
+line-height: 1;
+}
+
 body {
 font-family: "Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 16px;
